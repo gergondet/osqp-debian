@@ -17,7 +17,7 @@ Depends: cmake,
          ${misc:Depends}
 Description: OSQP - development files
  The OSQP (Operator Splitting Quadratic Program) solver is a numerical
- optimization package for solving problems in the form
+ optimization package for solving problems
  .
  This package contains development files (headers and shared library
  symbolic link).
