@@ -1,0 +1,23 @@
+Source: osqp
+Priority: optional
+Maintainer: Pierre Gergondet <pierre.gergondet+ppa@gmail.com>
+Standards-Version: 3.9.5
+Section: libs
+Homepage: https://osqp.org
+Vcs-Git: https://github.com/gergondet/osqp-debian
+Vcs-Browser: http://github.com/oxfordcontrol/osqp
+Build-Depends: debhelper (>= 9),
+               cmake
+
+Package: libosqp-dev
+Section: libdevel
+Architecture: any
+Depends: cmake,
+         ${shlibs:Depends},
+         ${misc:Depends}
+Description: OSQP - development files
+ The OSQP (Operator Splitting Quadratic Program) solver is a numerical
+ optimization package for solving problems in the form
+ .
+ This package contains development files (headers and shared library
+ symbolic link).

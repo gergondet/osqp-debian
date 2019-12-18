@@ -1,0 +1,5 @@
+osqp (0.6.0-1ubuntu1) unstable; urgency=medium
+
+  * Initial release
+
+ -- Pierre Gergondet <pierre.gergondet+ppa@gmail.com>  Wed, 18 Dec 2019 19:31:12 +0800
